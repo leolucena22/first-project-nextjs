@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,6 +114,9 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    padding: 60rem 3rem;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
